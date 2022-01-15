@@ -25,7 +25,13 @@ html {
 
 .card_li_bottom, p, a {
     font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
+
+h3, .card_li_bottom{
+    font-size: 18px;
+}
+
 
 .wrapper {
     position: relative;
@@ -89,5 +95,18 @@ html {
 ul {
     
     list-style-type: none;
-    margin: 25px 40px 20px 45px;
+    margin: 25px 33px 20px 24px;
+}
+
+@media (max-width: 375px) {
+    .wrap_img_top {
+        left: -800px;
+        bottom: 380px;
+
+    }
+
+    .wrap_img_bottom {
+        right: -730px;
+        top: 430px;
+    }
 }
